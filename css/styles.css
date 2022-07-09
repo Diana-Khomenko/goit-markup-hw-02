@@ -1,3 +1,8 @@
+:root {
+    --accent-color: #2196F3;
+    --primary-font: 'Roboto',sans-serif;
+}
+
 .list {
     list-style: none;
 }
@@ -5,23 +10,38 @@
     text-decoration: none;
 }
 
+body {
+    font-family: var(--primary-font), "Montserrat";
+    color: #212121; 
+}
+
+<!--Компоненты-->
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+<!--Главная страница-->
+
 <!--Шапка-->
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #212121;
+    
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .contact-link {
-font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1,14;
@@ -31,14 +51,13 @@ color: #757575;
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 !--/Шапка-->
 
-<!--Уникальный контент страницы-->
+<!--Hero-->
 
 .main-title {
-font-family: 'Roboto', sans-serif;
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
@@ -46,4 +65,118 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+
+.modal-btm {
+font-weight: 700;
+font-size: 16px;
+line-height: 1,88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: #FFFFFF;
+}
+
+.modal-btm:hover,
+.modal-btm:focus {
+    background-color: var(--accent-color);
+}
+
+<!--Особенности-->
+
+.properties-title-text {
+font-weight: 700;
+font-size: 14px;
+line-height: 1,14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.properties-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+<!--Чем мы занимаемся-->
+
+
+
+<!--Наша команда-->
+
+.name-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.name-text {
+font-size: 16px;
+line-height: 1,19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+<!--Подвал страницы-->
+
+.list-direction-link {
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+
+}
+
+.list-directin-light  {
+    color: #FFFFFF;
+}
+
+.list-direction-dark {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.list-direction-link link:hover,
+.list-direction-link link:focus {
+    color: var(--accent-color);
+}
+
+
+
+<!--Портфолио-->
+
+<!--Навигация-->
+
+.btn-nav-list {
+font-weight: 500;
+font-size: 16px;
+line-height: 1,63;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.btn-nav-list:hover,
+.btn-nav-list:focus {
+    color: var(--accent-color); 
+}
+
+.nav-content-titre {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.nav-content-text {
+font-size: 16px;
+line-height: 1,88;
+letter-spacing: 0.03em;
+color: #757575;
 }
