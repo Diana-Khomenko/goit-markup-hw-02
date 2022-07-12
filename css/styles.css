@@ -2,15 +2,16 @@
     --primary-font: 'Roboto',sans-serif;
     --text-color: #757575;
     --title-color: #212121;
-    --accent-color: #2196F3;   
+    --accent-color: #2196F3; 
+    --second-title:  #FFFFFF;
 }
 
 
 body {
-    font-family: var(--primary-font)rif;
+    font-family: var(--primary-font);
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: #FFFFFF;
+    background: #FFFFFF;
 }
 
 .list {
@@ -51,17 +52,23 @@ color: #000000;
     color: var(--accent-color);
     }
 
+.current{
+color: var(--accent-color);
+}
+
 .site-link {
     font-weight: 500;
     line-height: 1,14;
     letter-spacing: 0.02em;   
-    color: var(--title-color);
+    
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.site-link:hover,
+.site-link:focus {
     color: var(--accent-color);
 }
+
+
 .contact-link {
 font-weight: 500;
 line-height: 1,14;
@@ -79,34 +86,37 @@ color: var(--text-color)
 
 .hero {
     background: #2F303A;
-    text-align: center;
-    align-items: center;
 }
 
 .main-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1,36;
-
+text-align: center;
+align-items: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--main-title-color);
-background: #2F303A;
+color: var(--second-title)
+
+
 }
 
 .modal-btm {
-font-weight: 700;
-font-size: 16px;
-line-height: 1,88;
-display: flex;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: var(--modal-btm-color)
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--second-title)
+    background: #2196F3;
+    cursor: pointer;
 }
 
 .modal-btm:hover,
 .modal-btm:focus {
-    background-color: var(--accent-color);
+    color: var(--title-color-color);
 }
 
 <!--Особенности-->
@@ -115,10 +125,10 @@ color: var(--modal-btm-color)
 font-weight: 700;
 line-height: 1,14;
 text-transform: uppercase;
+color: var(--title-color);
 }
 
 .properties-text {
-font-weight: 400;
 line-height: 1,71;
 color: var(--text-color);
 }
@@ -134,7 +144,9 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1,19;
 text-align: center;
+color: var(--title-color);
 }
+
 
 .name-text {
 font-size: 16px;
@@ -145,28 +157,36 @@ color: var(--text-color);
 
 <!--Подвал страницы-->
 
-.footer {
+footer {
     background: #2F303A;
 }
 
 .accent-second {
     color: #FFFFFF;
 }
-.list-direction-link {
+
+.direction-item {
+    font-weight: 400;
 line-height: 1,71;
+background: #2F303A;
+}
+.direction-link-light {
+color: var(--second-title)
 }
 
-.list-direction-light  {
-    color: #FFFFFF;
-}
-
-.list-direction-dark {
-    color: rgba(255, 255, 255, 0.6);
+.direction-link-dark {
+color: rgba(255, 255, 255, 0.6);
 }
 
 
-.list-direction-link link:hover,
-.list-direction-link link:focus {
+.direction-link-light:hover,
+.direction-link-light:focus {
+    color: var(--accent-color);
+}
+
+
+.direction-link-dark:hover,
+.direction-link-dark:focus {
     color: var(--accent-color);
 }
 
@@ -176,6 +196,9 @@ line-height: 1,71;
 
 <!--Навигация-->
 
+button {
+    font-family: inherit
+}
 
 .btn-nav-list {
 font-weight: 500;
@@ -183,13 +206,12 @@ font-size: 16px;
 line-height: 1,63;
 text-align: center;
 cursor: pointer;
-
-
+color: var(--title-color);
 }
 
 .btn-nav-list:hover,
 .btn-nav-list:focus {
-    color: var(--accent-color); 
+ color: var(--accent-color);
 }
 
 .nav-content-titre {
