@@ -39,7 +39,7 @@ body {
 <!--Шапка-->
 
 .top-header {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -48,6 +48,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1,19;
 color: #000000;
+
 }
 
 .accent {
@@ -93,6 +94,7 @@ line-height: 1,36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-title-color);
+background: #2F303A;
 }
 
 .modal-btm {
