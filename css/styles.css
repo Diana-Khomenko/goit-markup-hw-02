@@ -1,16 +1,13 @@
 :root {
-    --accent-color: #2196F3;
     --primary-font: 'Roboto',sans-serif;
     --text-color: #757575;
-    --main-title-color: #FFFFFF;
-    --modal-btm-color: #FFFFFF;
     --title-color: #212121;
-    
+    --accent-color: #2196F3;   
 }
 
 
 body {
-    font-family: var(--primary-font), sans-serif;
+    font-family: var(--primary-font)rif;
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: #FFFFFF;
@@ -50,15 +47,15 @@ line-height: 1,19;
 color: #000000;
 
 }
-
 .accent {
-    color: #2196F3;
+    color: var(--accent-color);
     }
 
 .site-link {
     font-weight: 500;
     line-height: 1,14;
     letter-spacing: 0.02em;   
+    color: var(--title-color);
 }
 
 .menu-link:hover,
