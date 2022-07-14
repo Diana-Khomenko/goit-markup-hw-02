@@ -122,6 +122,7 @@ color: var(--second-title);
 /*Особенности*/
 
 .properties-title-text {
+    font-size: 14px;
 font-weight: 700;
 line-height: 1.14;
 text-transform: uppercase;
@@ -166,7 +167,8 @@ footer {
 }
 
 .direction-item {
-    font-weight: 400;
+ font-style: normal;
+font-weight: 400;
 line-height: 1.71;
 background: #2F303A;
 }
@@ -200,18 +202,21 @@ button {
     font-family: inherit;
 }
 
-.btn-nav-list {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-text-align: center;
-cursor: pointer;
-color: var(--title-color);
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    
+   
 }
 
-.btn-nav-list:hover,
-.btn-nav-list:focus {
- color: var(--accent-color);
+.button:hover,
+.button:focus {
+ color: #FFFFFF;
+background: #2196F3;
 }
 
 
