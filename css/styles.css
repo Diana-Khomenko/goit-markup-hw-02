@@ -84,6 +84,10 @@ color: var(--text-color);
 
 /*Hero*/
 
+.hero {
+background-color: #2F303A;
+}
+
 .main-title {
 font-weight: 900;
 font-size: 44px;
@@ -93,7 +97,7 @@ align-items: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--second-title);
-background-color: #2F303A;
+
 }
 
 .modal-btm {
@@ -107,11 +111,12 @@ background-color: #2F303A;
     color: var(--second-title);
     background-color: #2196F3;
     cursor: pointer;
+    
 }
 
 .modal-btm:hover,
 .modal-btm:focus {
-    color: var(--title-color-color);
+    color: var(--title-color);
 }
 
 /*Особенности*/
@@ -153,7 +158,7 @@ color: var(--text-color);
 /*Подвал страницы*/
 
 footer {
-    background: #2F303A;
+    background-color: #2F303A;
 }
 
 .accent-second {
@@ -208,6 +213,7 @@ color: var(--title-color);
 .btn-nav-list:focus {
  color: var(--accent-color);
 }
+
 
 .nav-content-titre {
 font-weight: 700;
