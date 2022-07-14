@@ -82,13 +82,7 @@ color: var(--text-color);
     color: var(--accent-color);
 }
 
-/*Шапка*/
-
 /*Hero*/
-
-/* .hero {
-    background-color: #2F303A;
-} перенесен в HTML, так как CSS не видит */
 
 .main-title {
 font-weight: 900;
@@ -99,6 +93,7 @@ align-items: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--second-title);
+background-color: #2F303A;
 }
 
 .modal-btm {
