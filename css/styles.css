@@ -57,7 +57,7 @@ color: #000000;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;   
-    color: var(--title-color)
+    color: var(--title-color);
 }
 
 .site-link:hover,
@@ -74,7 +74,7 @@ color: #000000;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--text-color)
+color: var(--text-color);
 }
 
 .contact-link:hover,
@@ -171,7 +171,7 @@ line-height: 1.71;
 background: #2F303A;
 }
 .direction-link-light {
-color: var(--second-title)
+color: var(--second-title);
 }
 
 .direction-link-dark {
@@ -197,7 +197,7 @@ color: rgba(255, 255, 255, 0.6);
 <!--Навигация-->
 
 button {
-    font-family: inherit
+    font-family: inherit;
 }
 
 .btn-nav-list {
