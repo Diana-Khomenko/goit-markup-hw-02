@@ -22,7 +22,7 @@ body {
 }
 
 
-<!--Компоненты-->
+/*Компоненты*/
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -32,7 +32,7 @@ body {
     
 }
 
-<!--Главная страница-->
+/*Главная страница*/
 
 /*Шапка*/
 
@@ -82,7 +82,7 @@ color: var(--text-color);
     color: var(--accent-color);
 }
 
-<!--/Шапка-->
+/*Шапка*/
 
 /*Hero*/
 
@@ -119,7 +119,7 @@ color: var(--second-title);
     color: var(--title-color-color);
 }
 
-<!--Особенности-->
+/*Особенности*/
 
 .properties-title-text {
 font-weight: 700;
@@ -133,7 +133,7 @@ line-height: 1.71;
 color: var(--text-color);
 }
 
-<!--Чем мы занимаемся-->
+/*Чем мы занимаемся*/
 
 
 
@@ -155,7 +155,7 @@ text-align: center;
 color: var(--text-color);
 }
 
-<!--Подвал страницы-->
+/*Подвал страницы*/
 
 footer {
     background: #2F303A;
@@ -192,7 +192,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 
-<!--Портфолио-->
+/*Портфолио*/
 
 /*Навигация*/
 
