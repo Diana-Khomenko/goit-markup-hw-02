@@ -34,7 +34,7 @@ body {
 
 <!--Главная страница-->
 
-<!--Шапка-->
+/*Шапка*/
 
 .top-header {
     background-color: #FFFFFF;
@@ -84,7 +84,7 @@ color: var(--text-color);
 
 <!--/Шапка-->
 
-<!--Hero-->
+/*Hero*/
 
 /* .hero {
     background-color: #2F303A;
@@ -137,7 +137,7 @@ color: var(--text-color);
 
 
 
-<!--Наша команда-->
+/*Наша команда*/
 
 .name-title {
 font-weight: 500;
@@ -194,7 +194,7 @@ color: rgba(255, 255, 255, 0.6);
 
 <!--Портфолио-->
 
-<!--Навигация-->
+/*Навигация*/
 
 button {
     font-family: inherit;
