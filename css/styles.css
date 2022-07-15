@@ -112,8 +112,7 @@ color: var(--second-title);
 /*Особенности*/
 
 .properties-title-text {
-    font-size: 14px;
-font-weight: 700;
+font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--title-color);
@@ -131,7 +130,6 @@ color: var(--text-color);
 /*Наша команда*/
 
 .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -178,12 +176,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 
-.direction-link-light:hover,
-.direction-link-light:focus {
-    color: var(--accent-color);
-}
-
-
 .direction-link-dark:hover,
 .direction-link-dark:focus {
     color: var(--accent-color);
@@ -206,6 +198,8 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    cursor: pointer;
+    background-color: var(--second-title);
     
    
 }
@@ -218,7 +212,6 @@ background: #2196F3;
 
 
 .nav-content-titre {
-font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
