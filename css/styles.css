@@ -22,19 +22,9 @@ body {
 }
 
 
-/*Компоненты*/
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    
-    
-}
-
 /*Главная страница*/
 
-/*Шапка*/
+/* HEADER */
 
 .top-header {
     background-color: #FFFFFF;
@@ -82,7 +72,7 @@ color: var(--text-color);
     color: var(--accent-color);
 }
 
-/*Hero*/
+/* HERO */
 
 .hero {
 background-color: #2F303A;
@@ -140,6 +130,13 @@ color: var(--text-color);
 
 /*Наша команда*/
 
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 .name-title {
 font-weight: 500;
 font-size: 16px;
@@ -156,7 +153,7 @@ text-align: center;
 color: var(--text-color);
 }
 
-/*Подвал страницы*/
+/* FOOTER */
 
 footer {
     background-color: #2F303A;
